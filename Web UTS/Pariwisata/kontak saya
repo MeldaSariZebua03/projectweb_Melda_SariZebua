@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Kontak - Pariwisata</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Hubungi Kami</h1>
+</header>
+
+<nav class="menu clearfix"> 
+    <ul>
+        <li><a href="Home.html">Home</a></li>
+        <li><a href="Galery.html">Galeri</a></li>
+        <li><a href="Kontak.html">Kontak</a></li>
+        <li><a href="TentangKami.html">Tentang Kami</a></li>
+    </ul>
+</nav>
+
+<div class="content">
+    <h2>Informasi Kontak</h2>
+    <p>Nama: Imellda Pariwisata</p>
+    <p>Alamat: Jl. Wisata No.123, Kota Wisata</p>
+    <p>Telepon: (021) 12345678</p>
+    <p>Email: info@pariwisata.go.id</p>
+
+    <h3>Kirim Pesan</h3>
+    <form>
+        <label>Nama:</label><br>
+        <input type="text" name="nama" required><br><br>
+        <label>Email:</label><br>
+        <input type="email" name="email" required><br><br>
+        <label>Pesan:</label><br>
+        <textarea name="pesan" rows="5" required></textarea><br><br>
+        <button type="submit">Kirim</button>
+    </form>
+</div>
+
+<footer>
+    <p>&copy; 2025 Dinas Pariwisata Kota Wisata</p>
+</footer>
+
+</body>
+</html>
